@@ -1,0 +1,16 @@
+#OS-files
+.DS_Store
+Thumbs.db
+
+#editor-settings
+.vscode/
+.idea/
+
+#logs
+*.log
+
+#environment-files
+.env
+
+#node-modules
+node_modules/
