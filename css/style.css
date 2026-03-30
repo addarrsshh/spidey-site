@@ -12,6 +12,8 @@
       font-size: clamp(40px, 6vw, 80px);
     }
 
+
+/*the first text + image box*/
     .container
     {
       background-color: #fceec8;
@@ -53,6 +55,7 @@
       transform: scale(1.01);
     }
     
+/*three buttons*/
     .buttons
     {
       display:flex;
@@ -88,14 +91,17 @@
       box-shadow: none;
     }
 
+
     .btn:hover
     {
-      background-color: blueviolet;
+      background-color: darkblue;
       border-radius: 25px;
       width: 15vw;
       border: 3px blue;
     }
 
+
+/*cards that activate when pressing the buttons*/
     .container2-cards
     {
       width:80vw;
@@ -183,6 +189,8 @@
       object-fit: cover;
     }
 
+
+/*container for image grid*/
     .image-grid
     {
       display: grid;
@@ -244,6 +252,8 @@
       transform: scale(1.1);
     }
 
+
+/*container for queston and submit button*/
     .container-question
     {
       text-align: center;
@@ -324,7 +334,7 @@
       cursor: pointer;
     }
 
-
+/*container for wikipedia link*/
     #spider-wiki
     {
       display: block;
